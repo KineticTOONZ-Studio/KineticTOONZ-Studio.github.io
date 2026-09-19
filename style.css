@@ -377,37 +377,164 @@ body {
 
 
 /* ========================================
-   TABLET
+   DESKTOP (default styles)
+   Already written above this point
 ======================================== */
 
-@media (max-width: 1200px) {
+
+/* ========================================
+   LAPTOP
+======================================== */
+
+@media (max-width: 1400px) {
 
   .top-bar {
-    height: 240px;
-
-    padding: 10px 25px;
+    height: 220px;
+    padding: 10px 30px;
   }
 
   .logo {
-    width: 350px;
+    width: 380px;
   }
 
   .navigation {
-    gap: 25px;
+    gap: 40px;
   }
 
   .nav-item {
-    width: 105px;
+    width: 115px;
   }
 
   .nav-item img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 
   .nav-item span {
-    font-size: 18px;
+    font-size: 19px;
   }
+
+  .welcome-text {
+    font-size: clamp(90px, 11vw, 150px);
+  }
+
+  .k-pattern {
+    font-size: 65px;
+  }
+
+  .social-area h2 {
+    font-size: clamp(48px, 4.5vw, 65px);
+  }
+
+  .social-link img {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+
+/* ========================================
+   iPAD / TABLET
+======================================== */
+
+@media (max-width: 1024px) {
+
+  .top-bar {
+    height: 200px;
+    padding: 12px 20px;
+  }
+
+  .logo {
+    width: 300px;
+  }
+
+  .navigation {
+    gap: 18px;
+  }
+
+  .nav-item {
+    width: 95px;
+  }
+
+  .nav-item img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .nav-item span {
+    font-size: 15px;
+  }
+
+  .welcome-section {
+    height: 260px;
+  }
+
+  .welcome-text {
+    font-size: 90px;
+    letter-spacing: -4px;
+  }
+
+  .k-pattern {
+    font-size: 48px;
+    word-spacing: 20px;
+  }
+
+  .bottom-section {
+    gap: 20px;
+    padding: 0 15px 15px;
+  }
+
+  .chibi {
+    width: 180px;
+  }
+
+  .social-area h2 {
+    font-size: 42px;
+  }
+
+  .social-link img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .social-link span {
+    font-size: 15px;
+  }
+
+  /* About section */
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-chibi {
+    width: 220px;
+  }
+
+  /* Projects section */
+  .skill-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skill-image img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+  }
+
+  /* Music section */
+  .music-spotlight {
+    flex-direction: column;
+  }
+
+  .video-container {
+    width: 100%;
+    max-width: 420px;
+  }
+
 }
 
 
@@ -415,107 +542,206 @@ body {
    MOBILE
 ======================================== */
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
 
   .top-bar {
     height: auto;
-
     flex-direction: column;
-
-    padding: 15px 10px 20px;
+    padding: 15px 12px 20px;
   }
 
-
   .logo {
-    width: 320px;
-
+    width: 280px;
     max-width: 90%;
   }
 
-
   .navigation {
     width: 100%;
-
-    margin-top: 20px;
-
-    gap: 10px;
-
+    margin-top: 18px;
+    gap: 12px;
     flex-wrap: wrap;
+    justify-content: center;
   }
-
 
   .nav-item {
-    width: 90px;
+    width: 80px;
   }
-
 
   .nav-item img {
-    width: 65px;
-    height: 65px;
+    width: 58px;
+    height: 58px;
   }
-
 
   .nav-item span {
     font-size: 13px;
   }
 
-
   .welcome-section {
-    height: 220px;
+    height: 200px;
   }
-
 
   .welcome-text {
-    font-size: 80px;
-
-    letter-spacing: -5px;
+    font-size: 70px;
+    letter-spacing: -3px;
   }
-
 
   .k-pattern {
-    font-size: 50px;
-
-    word-spacing: 15px;
+    font-size: 36px;
+    word-spacing: 12px;
+    padding: 15px;
   }
-
 
   .bottom-section {
     flex-direction: column;
-
     align-items: center;
-
-    padding: 20px 10px;
+    padding: 25px 12px;
   }
-
 
   .character-area {
     width: 100%;
-
-    min-height: 230px;
-
+    min-height: 210px;
     justify-content: center;
   }
 
+  .chibi {
+    width: 170px;
+  }
 
   .social-area {
     width: 100%;
   }
 
-
   .social-area h2 {
-    font-size: 45px;
-
+    font-size: 36px;
     text-align: center;
   }
 
-
   .social-links {
     flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px 10px;
   }
 
+  .social-link {
+    min-width: 42%;
+  }
+
+  .social-link img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .social-link span {
+    font-size: 14px;
+  }
+
+  /* About */
+  .about-section {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .about-content {
+    padding: 20px;
+  }
+
+  .about-text h1 {
+    font-size: 28px;
+  }
+
+  .about-text h2 {
+    font-size: 20px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  /* History */
+  .history-box {
+    padding: 25px 20px;
+  }
+
+  .history-box h1 {
+    font-size: 36px;
+  }
+
+  .history-box h2 {
+    font-size: 22px;
+  }
+
+  .history-box p {
+    font-size: 16px;
+  }
+
+  /* Projects */
+  .skill-text h2 {
+    font-size: 28px;
+  }
+
+  .skill-text p {
+    font-size: 16px;
+  }
+
+  /* Music */
+  .music-title {
+    font-size: 42px;
+  }
+
+  .music-intro {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  .song-info {
+    padding: 18px;
+  }
+
+}
+
+
+/* ========================================
+   SMALL MOBILE
+======================================== */
+
+@media (max-width: 480px) {
+
+  .logo {
+    width: 240px;
+  }
+
+  .nav-item {
+    width: 70px;
+  }
+
+  .nav-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav-item span {
+    font-size: 12px;
+  }
+
+  .welcome-text {
+    font-size: 56px;
+  }
+
+  .k-pattern {
+    font-size: 28px;
+  }
+
+  .social-area h2 {
+    font-size: 30px;
+  }
 
   .social-link {
-    min-width: 40%;
+    min-width: 45%;
+  }
+
+  .social-link img {
+    width: 60px;
+    height: 60px;
   }
 
 }
