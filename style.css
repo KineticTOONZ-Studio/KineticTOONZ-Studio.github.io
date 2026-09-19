@@ -13,7 +13,85 @@ body {
   width: 100%;
   min-height: 100%;
 }
+/* ===============================
+   TABLET / iPAD
+================================ */
 
+@media (max-width: 1024px) and (min-width: 751px) {
+
+  .top-bar {
+    padding: 15px 25px;
+  }
+
+  .logo {
+    width: 220px;
+  }
+
+  .navigation {
+    gap: 18px;
+  }
+
+  .nav-item img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .nav-item span {
+    font-size: 14px;
+  }
+
+  /* Welcome */
+  .welcome-text {
+    font-size: 70px;
+  }
+
+  /* About */
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-chibi {
+    width: 240px;
+  }
+
+  /* History */
+  .history-box {
+    padding: 30px;
+  }
+
+  .history-box h1 {
+    font-size: 40px;
+  }
+
+  /* Projects */
+  .skill-row {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .skill-image img {
+    width: 280px;
+    height: 150px;
+  }
+
+  /* Music */
+  .music-spotlight {
+    flex-direction: column;
+  }
+
+  .video-container {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .music-title {
+    font-size: 52px;
+  }
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #0798ed;
