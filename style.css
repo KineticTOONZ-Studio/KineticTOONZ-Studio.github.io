@@ -537,7 +537,6 @@ body {
 
 }
 
-
 /* ========================================
    MOBILE
 ======================================== */
@@ -547,79 +546,74 @@ body {
   .top-bar {
     height: auto;
     flex-direction: column;
-    padding: 15px 12px 20px;
+    padding: 15px 12px 18px;
   }
 
   .logo {
-    width: 280px;
-    max-width: 90%;
+    width: 260px;
+    max-width: 85%;
   }
 
   .navigation {
     width: 100%;
-    margin-top: 18px;
-    gap: 12px;
+    margin-top: 15px;
+    gap: 8px;
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .nav-item {
-    width: 80px;
+    width: 70px;
   }
 
   .nav-item img {
-    width: 58px;
-    height: 58px;
+    width: 48px !important;
+    height: 48px !important;
+    margin-bottom: 4px;
   }
 
   .nav-item span {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .welcome-section {
-    height: 200px;
+    height: 190px;
   }
 
   .welcome-text {
-    font-size: 70px;
+    font-size: 64px;
     letter-spacing: -3px;
   }
 
   .k-pattern {
-    font-size: 36px;
-    word-spacing: 12px;
-    padding: 15px;
+    font-size: 32px;
+    word-spacing: 10px;
   }
 
   .bottom-section {
     flex-direction: column;
     align-items: center;
-    padding: 25px 12px;
+    padding: 20px 12px;
   }
 
   .character-area {
     width: 100%;
-    min-height: 210px;
+    min-height: 200px;
     justify-content: center;
   }
 
   .chibi {
-    width: 170px;
-  }
-
-  .social-area {
-    width: 100%;
+    width: 160px;
   }
 
   .social-area h2 {
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
   }
 
   .social-links {
     flex-wrap: wrap;
-    gap: 15px;
-    padding: 15px 10px;
+    gap: 12px;
   }
 
   .social-link {
@@ -627,74 +621,8 @@ body {
   }
 
   .social-link img {
-    width: 70px;
-    height: 70px;
-  }
-
-  .social-link span {
-    font-size: 14px;
-  }
-
-  /* About */
-  .about-section {
-    margin: 20px auto;
-    padding: 15px;
-  }
-
-  .about-content {
-    padding: 20px;
-  }
-
-  .about-text h1 {
-    font-size: 28px;
-  }
-
-  .about-text h2 {
-    font-size: 20px;
-  }
-
-  .about-text p {
-    font-size: 16px;
-  }
-
-  /* History */
-  .history-box {
-    padding: 25px 20px;
-  }
-
-  .history-box h1 {
-    font-size: 36px;
-  }
-
-  .history-box h2 {
-    font-size: 22px;
-  }
-
-  .history-box p {
-    font-size: 16px;
-  }
-
-  /* Projects */
-  .skill-text h2 {
-    font-size: 28px;
-  }
-
-  .skill-text p {
-    font-size: 16px;
-  }
-
-  /* Music */
-  .music-title {
-    font-size: 42px;
-  }
-
-  .music-intro {
-    font-size: 15px;
-    padding: 15px;
-  }
-
-  .song-info {
-    padding: 18px;
+    width: 65px;
+    height: 65px;
   }
 
 }
@@ -707,45 +635,31 @@ body {
 @media (max-width: 480px) {
 
   .logo {
-    width: 240px;
+    width: 220px;
   }
 
   .nav-item {
-    width: 70px;
+    width: 62px;
   }
 
   .nav-item img {
-    width: 50px;
-    height: 50px;
+    width: 42px !important;
+    height: 42px !important;
   }
 
   .nav-item span {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .welcome-text {
-    font-size: 56px;
-  }
-
-  .k-pattern {
-    font-size: 28px;
+    font-size: 52px;
   }
 
   .social-area h2 {
-    font-size: 30px;
-  }
-
-  .social-link {
-    min-width: 45%;
-  }
-
-  .social-link img {
-    width: 60px;
-    height: 60px;
+    font-size: 28px;
   }
 
 }
-
 /* ===============================
    ABOUT PAGE
 ================================ */
